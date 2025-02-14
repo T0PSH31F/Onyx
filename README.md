@@ -1,5 +1,5 @@
 
-# nixos-Onyx
+# NixOS-Onyx
 
 A multi-platform Nix configuration template optimized as development environment (includes direnv, neovim with LSP[^neovim] and such), based on [nixos-unified]. See [`./modules`](modules/) to see what's available. We support [home-manager] (see `./modules/home`), [nix-darwin] (see `./modules/darwin`) and [NixOS] (see `./modules/nixos`).
 
