@@ -5,18 +5,17 @@
     lg = "lazygit";
   };
 
-  # https://nixos.asia/en/git
   programs = {
     git = {
       enable = true;
-      userName = "John Doe";
-      userEmail = "johndoe@example.com";
+      userName = "t0psh31f";
+      userEmail = "wrighterik77@gmail.com";
       ignores = [ "*~" "*.swp" ];
       aliases = {
         ci = "commit";
       };
       extraConfig = {
-        # init.defaultBranch = "master";
+          init.defaultBranch = "master";
         # pull.rebase = "false";
       };
     };
