@@ -1,6 +1,5 @@
-[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://nixos.zulipchat.com/#narrow/stream/413950-nix)
 
-# nixos-unified-template
+# nixos-Onyx
 
 A multi-platform Nix configuration template optimized as development environment (includes direnv, neovim with LSP[^neovim] and such), based on [nixos-unified]. See [`./modules`](modules/) to see what's available. We support [home-manager] (see `./modules/home`), [nix-darwin] (see `./modules/darwin`) and [NixOS] (see `./modules/nixos`).
 
@@ -9,21 +8,6 @@ A multi-platform Nix configuration template optimized as development environment
 | macOS       | ✅ [home-manager] and/or ✅ [nix-darwin]   |
 | NixOS       | ✅ [home-manager] and ✅ [NixOS]  |
 | Other Linux | ✅ [home-manager] only                       |
-
-[^neovim]: Wanna try before you buy?
-    ```
-    git clone https://github.com/srid/rust-nix-template
-    cd rust-nix-template
-    nix develop
-    nix run github:juspay/nixos-unified-template#neovim
-    # Type `SPC f f` to open a .rs file
-    # Wait for rust-analyzer to finish; go to a symbol and type K
-    ```
-
-    Expect to see:
-
-    <img width="534" alt="image" src="https://github.com/user-attachments/assets/204e6ad7-c233-4503-9924-73fbce2772d6">
-
 
 [nix-darwin]: https://github.com/LnL7/nix-darwin
 [home-manager]: https://github.com/nix-community/home-manager
