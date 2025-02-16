@@ -9,7 +9,7 @@
 
   # For home-manager to work.
   # https://github.com/nix-community/home-manager/issues/4026#issuecomment-1565487545
-  users.users."runner".isNormalUser = true;
+  users.users."t0psh31f".isNormalUser = true;
 
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog

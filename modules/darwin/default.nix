@@ -11,7 +11,7 @@ in
   security.pam.enableSudoTouchIdAuth = true;
 
   # These users can add Nix caches.
-  nix.settings.trusted-users = [ "root" "runner" ];
+  nix.settings.trusted-users = [ "root" "t0psh31f" ];
 
   # Configure macOS system
   # More examples => https://github.com/ryan4yin/nix-darwin-kickstarter/blob/main/rich-demo/modules/system.nix

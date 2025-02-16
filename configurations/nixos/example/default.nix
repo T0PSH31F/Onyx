@@ -13,8 +13,8 @@ in
     ./configuration.nix
   ];
 
-  # Enable home-manager for "runner" user
-  home-manager.users."runner" = {
-    imports = [ (self + /configurations/home/runner.nix) ];
+  # Enable home-manager for "t0psh31f" user
+  home-manager.users."t0psh31f" = {
+    imports = [ (self + /configurations/home/t0psh31f.nix) ];
   };
 }

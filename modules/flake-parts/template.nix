@@ -115,7 +115,7 @@
           {
             name = "username";
             description = "Your username as shown by `whoami`";
-            placeholder = "runner";
+            placeholder = "t0psh31f";
           }
           # Git
           {

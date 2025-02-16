@@ -16,11 +16,11 @@ in
 
   # For home-manager to work.
   # https://github.com/nix-community/home-manager/issues/4026#issuecomment-1565487545
-  users.users."runner".home = "/Users/runner";
+  users.users."t0psh31f".home = "/Users/t0psh31f";
 
-  # Enable home-manager for "runner" user
-  home-manager.users."runner" = {
-    imports = [ (self + /configurations/home/runner.nix) ];
+  # Enable home-manager for "t0psh31f" user
+  home-manager.users."t0psh31f" = {
+    imports = [ (self + /configurations/home/t0psh31f.nix) ];
   };
 
   # Used for backwards compatibility, please read the changelog before changing.

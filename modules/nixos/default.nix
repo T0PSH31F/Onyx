@@ -8,7 +8,7 @@ let
 in
 {
   # These users can add Nix caches.
-  nix.settings.trusted-users = [ "root" "runner" ];
+  nix.settings.trusted-users = [ "root" "t0psh31f" ];
 
   services.openssh.enable = true;
 }
